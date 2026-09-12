@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font: 100% Arial, sans-serif;
+            background-color: #d14836;
+            margin: 0;
+            padding: 20px;
+            line-height: 20px;
+        }
+
+        header {
+            color: #ffffff;
+            padding: 10px 0 25px 0;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0 0 15px 0;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .main-container {
+            background-color: #ffffff;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .menubar {
+            width: 180px;
+            float: right;
+        }
+
+        .menubar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menubar {
+            width: 180px;
+            float: right;
+        }
+
+        .menubar li {
+            text-align: center;
+            background-color: #d14836;
+            color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .menubar li.active {
+            background-color: #ffffff;
+            color: #d14836;
+            border: 2px solid #d14836;
+            padding: 6px 10px;
+        }
+
+
+        .content {
+            margin-right: 200px;
+        }
+
+        .content h1,
+        h2,
+        .sidebar h2 {
+            color: #d14836;
+            margin-top: 0;
+        }
+
+        .content p {
+            margin-bottom: 15;
+        }
+
+        .content a {
+            color: #d14836;
+        }
+
+        .sidebar {
+            background-color: #f7d2cd;
+            color: #d14836;
+            padding: 20px;
+            margin: 30px -20px -20px -20px;
+            clear: both;
+        }
+
+        .bottom {
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 11px;
+            line-height: 18px;
+        }
+
+
+        .wrapper::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<div>
+    <header>
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </header>
+    <div class="main-container">
+        <div class="wrapper">
+            <div class="menubar">
+                <ul>
+                    <li>Stylesheet 1</li>
+                    <li class="active">Stylesheet 2</li>
+                    <li>Stylesheet 3</li>
+                    <li>Stylesheet 4</li>
+                    <li>No Stylesheet</li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h1>Same Page Different Stylesheets</h1>
+                <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can
+                    change the layout of this page by selecting different stylesheets in the menu, or by selecting one
+                    of
+                    the following links:</p>
+                <p>
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet1</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet2</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a>
+                </p>
+
+                <h2>No Styles</h2>
+                <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the
+                    page
+                    looks like with no stylesheet: <br>
+                    <a href="https://www.w3schools.com/css/demo_default.htm">No Stylesheet.</a>
+                </p>
+
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Side-Bar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                ut
+                laoreet
+                dolore magna aliquam erat volutpat.</p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait
+            nulla facilisi.</p>
+    </div>
+    </body>
+
+</html>
+
+추가해야 할 내용 마우스를 올릴 때만 밑줄 쳐지도록, 
+메뉴바에 마우스 올리면 배경 색 변하고 누르면 그 링크로 이동하도록
