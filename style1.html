@@ -15,6 +15,7 @@
 
         a {
             text-decoration: underline;
+            color: black;
         }
 
         a:hover {
@@ -106,6 +107,11 @@
             margin-right: 195px;
         }
 
+        .content p+.stylesheet-links {
+            margin-top: -15px;
+            margin-bottom: 25px;
+        }
+
         .bottom {
             clear: both;
             border: 1px solid #d4d4d4;
@@ -135,7 +141,7 @@
     <div class="wrapper">
         <div class="menubar">
             <ul>
-                <li class="active">Stylesheet1</li>
+                <li class="active"><strong>Stylesheet1</strong></li>
                 <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet2</a></li>
                 <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a></li>
                 <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a></li>
@@ -154,10 +160,12 @@
             <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can
                 change the layout of this page by selecting different stylesheets in the menu, or by selecting one of
                 the following links:</p>
-            <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet1</a>,
-            <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet2</a>,
-            <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a>,
-            <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a>
+            <div class="stylesheet-links">
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet1</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet2</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a>,
+                <a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a>
+            </div>
 
             <h2>No Styles</h2>
             <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page
