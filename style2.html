@@ -15,20 +15,12 @@
             line-height: 20px;
         }
 
-        a {
+        .content a {
             text-decoration: none;
         }
 
-        a:hover {
+        .content a:hover {
             text-decoration: underline;
-        }
-
-        .menubar li:hover {
-            background-color: #ffffff;
-            color: #d14836;
-            cursor: pointer;
-            border: 2px solid #d14836;
-            padding: 6px 10px;
         }
 
         header {
@@ -68,6 +60,32 @@
         .menubar {
             width: 180px;
             float: right;
+        }
+
+        .menubar a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .menubar li.active a {
+            color: #d14836;
+            text-decoration: none;
+        }
+
+        .menubar li:hover {
+            background-color: #ffffff;
+            cursor: pointer;
+            border: 2px solid #d14836;
+            padding: 6px 10px;
+        }
+
+        .menubar li:hover a {
+            color: #d14836;
+        }
+
+        .menubar li.active:hover {
+            cursor: default;
         }
 
         .menubar li {
@@ -143,11 +161,11 @@
         <div class="wrapper">
             <div class="menubar">
                 <ul>
-                    <li>Stylesheet 1</li>
-                    <li class="active">Stylesheet 2</li>
-                    <li>Stylesheet 3</li>
-                    <li>Stylesheet 4</li>
-                    <li>No Stylesheet</li>
+                    <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet1</a></li>
+                    <li class="active">Stylesheet2</li>
+                    <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet3</a></li>
+                    <li><a href="https://www.w3schools.com/css/demo_default.htm">Stylesheet4</a></li>
+                    <li><a href="https://www.w3schools.com/css/demo_default.htm">No Stylesheet</a></li>
                 </ul>
             </div>
 
