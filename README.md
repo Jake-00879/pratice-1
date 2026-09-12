@@ -6,7 +6,17 @@
     <title>Key Learning & Reflection</title>
 </head>
 <body>
-
+<h1>22300283 / 박선호</h1>
+<h2>Assignment 02 수행 내용</h2>
+<p>css로 디자인을 입히는 법과 html 내에서 디자인을 입히기 위한 섹션 나누는 법을 배웠고 직접 사용해서 웹페이지 제작을 했다. </p>
+<h2>각 페이지 설명 및 URL</h2>
+    <a href="https://pratice-1-qvvmog5i9-jake-00879.vercel.app/nostyle.html">nostyle.html</a>
+    <p>nostyle.html w3school에 있는 데모 디폴트 페이지를 직접 코딩하여 구현해보았다.</p>
+    <a href="https://pratice-1-qvvmog5i9-jake-00879.vercel.app/style1.html">nostyle.html</a>
+    <p>nostyle.html w3school에 있는 데모 style1 페이지를 직접 코딩하여 구현해보았다. 다른 페이지로의 이동도 그대로 구현해두었다.</p>
+    <a href="https://pratice-1-qvvmog5i9-jake-00879.vercel.app/style2.html">nostyle.html</a>
+    <p>nostyle.html w3school에 있는 데모 style2.html 페이지를 직접 코딩하여 구현해보았다. style1을 하고 나서 만드니 훨씬 금방 만들었다.</p>
+Vercel Deploy URL
     <h2>Key Learning: 이번 주 배운 핵심 내용 3가지</h2>
     <p>웹서버와 클라이언트, 데이터베이스가 어떻게 작용하는지 배웠습니다.</p>
     <p>그 과정에서 사용하는 포로토콜이 무엇인지, 웹서버와 데이터베이스의 종류에 데헤서도 배웠습니다.</p>
